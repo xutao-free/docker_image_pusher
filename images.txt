@@ -1,7 +1,13 @@
---platform=linux/arm64 nginx:1.27.0
---platform=linux/arm64 nginx
+nginx
+--platform=linux/amd64 nginx:1.27.0
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
+
+#--platform参数说明
+#amd64：即 x86_64，是最常见的桌面和服务器 CPU 架构，广泛用于 Intel 和 AMD 的处理器。
+#arm64：ARM 架构的 64 位版本，常用于移动设备和一些高性能计算场景。
+#windows/amd64：指运行在 64 位 Windows 操作系统上的架构
+#linux/amd64：指运行在 64 位 Linux 操作系统上的架构
