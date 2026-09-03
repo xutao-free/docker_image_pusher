@@ -1,5 +1,4 @@
-openjdk8
---platform=linux/amd64 eclipse-temurin:8-jdk-alpine
+eclipse-temurin:8-jdk-alpine
 
 #nginx
 #--platform=linux/amd64 nginx:1.31.0
