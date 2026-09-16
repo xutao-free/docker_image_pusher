@@ -1,4 +1,4 @@
-eclipse-temurin:8u504-b01-jdk-alpine
+eclipse-temurin:8u504-b01-jre-alpine
 
 #nginx
 #--platform=linux/amd64 nginx:1.31.0
